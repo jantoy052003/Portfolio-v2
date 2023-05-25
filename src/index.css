@@ -12,3 +12,17 @@
       @apply cursor-pointer;
   }
 }
+
+@layer utilities {
+  #navLinks{
+    @apply relative
+  }
+
+  #navLinks::after{
+      @apply content-[''] absolute w-[100%] scale-x-0 h-[1px] bottom-0 left-0 bg-[#64FFDA] origin-bottom-right transition-transform ease-out
+  }
+
+  #navLinks:hover:after{
+      @apply scale-100 origin-bottom-left
+  }
+}
