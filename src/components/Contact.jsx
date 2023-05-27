@@ -19,7 +19,7 @@ const Contact = () => {
                         </div>
                     </div>
                     <div className='flex flex-col py-2'>
-                        <input className='border-2 rounded-lg p-3 flex border-[#64FFDA] bg-gray-700' type="email" name='email' placeholder="Email"/>
+                        <input className='border-2 rounded-lg p-3 flex border-[#64FFDA] bg-gray-700' type="email" name='email' placeholder="Email" required/>
                     </div>
                     <div className='flex flex-col py-2'>
                         <input className='border-2 rounded-lg p-3 flex border-[#64FFDA] bg-gray-700' type="text" name='subject' placeholder="Subject"/>
