@@ -52,7 +52,7 @@ const Navbar = () => {
             </ul>
 
             {/* Hamburger */}
-            <div onClick={handleclick} className='md:hidden z-10'>
+            <div onClick={handleclick} className='md:hidden z-10 absolute right-14'>
                 <Hamburger color='#64FFDA' toggled={nav} toggle={setNav}/>
             </div>
 
@@ -91,7 +91,7 @@ const Navbar = () => {
             </ul>
 
             {/* Socials */}
-            <div className='hidden lg:flex fixed flex-col top-[35%] right-0'>
+            <div className='hidden lg:flex lg:fixed lg:flex-col lg:top-[35%] lg:right-0'>
                 <ul>
                     <li className='w-[160px] h-[60px] flex justify-between items-center mr-[-100px] hover:ml-[-100px] duration-300 bg-blue-600'>
                         <a className='flex justify-between items-center w-full text-gray-300' href="https://www.linkedin.com/in/jan-caasi-53ab30277/" target='blank'><FaLinkedin size={30}/> LinkedIn </a>

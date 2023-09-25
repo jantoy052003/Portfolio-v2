@@ -3,8 +3,8 @@ import { Link } from 'react-scroll'
 
 const Footer = () => {
   return (
-    <div className='bg-[#0a192f] pb-4 text-sm'>
-        <div className='flex justify-center text-[#64ffda] pb-2'>
+    <div className='bg-[#0a192f] pb-4 text-sm flex flex-col justify-center items-center'>
+        <div className='flex justify-center text-[#64ffda] pb-2 p-4 pt-4 md:pt-0'>
             <ul className='flex'>
                 <li className=''>
                     <Link to="home"  smooth={true}  duration={500}>
