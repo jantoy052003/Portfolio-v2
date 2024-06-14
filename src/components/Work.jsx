@@ -4,6 +4,13 @@ import WorkItem from './WorkItem'
 const data = [
     {
         year: 2023,
+        title: 'D.W. Morgan',
+        duration: '9 months',
+        details:
+        'As a QA Software Engineer Intern, my main tasks were focused on creating and maintaining test cases for project management and assisting web and mobile developers in testing applications before scheduled deployments'
+    },
+    {
+        year: 2023,
         title: 'KodeGo',
         duration: '3 months',
         details:
@@ -27,7 +34,7 @@ const data = [
 
 const Work = () => {
     return (
-        <div name='work' className='w-full h-screen bg-[#0a192f] text-gray-300'>
+        <div name='work' className='w-full h-screen bg-[#0a192f] text-gray-300 pt-32'>
             <div className='max-w-[1000px] mx-auto p-4 pt-56 md:pt-0 flex flex-col justify-center w-full h-full'>
                 <div>
                     <p className='text-4xl font-bold inline border-b-4 border-[#26c2a8]'>Work</p>

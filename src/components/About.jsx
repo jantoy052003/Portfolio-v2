@@ -14,7 +14,7 @@ const About = () => {
                         <p>Hi there! Please take a look around</p>
                     </div>
                 <div>
-                    <p className='indent-6 text-justify'>My name is Jan Michael Caasi and I find coding challenging and fun at the same time. I have a tiny bit of a background on Java Programming Language and I am passionate about creating web apps that can help improve quality of life. </p>
+                    <p className='indent-6 text-justify'>My name is Jan Michael Caasi and I find coding challenging and fun at the same time. I have an experience as a QA Software Engineer as an intern and I also have a tiny bit of a background on Java Programming Language. I am passionate about creating web apps that can help improve quality of life. </p>
                     <p className='indent-6 text-justify'>Aside from being a web developer, I spend my free time riding my mountain bike around town, nearby cities and local bike parks and trails.</p>
                 </div>
             </div>

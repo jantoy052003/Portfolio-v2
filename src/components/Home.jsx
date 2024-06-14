@@ -9,11 +9,13 @@ const Home = () => {
         <div className='max-w-[700px] m-auto h-full w-full flex flex-col justify-center lg:items-start items-center'>
                 <p className='sm:text-2xl text-2xl pb-4 text-[#64FFDA]'>Hi, my name is</p>
                 <h1 className='sm:text-7xl text-4xl font-bold text-[#ccd6f6]'>Jan Michael Caasi</h1>
-                <h2 className='flex sm:text-4xl text-2xl pt-4 text-[#64FFDA]'>I'm a 
+                <h2 className='flex sm:text-4xl text-2xl pt-4 text-[#64FFDA]'>I'm a  
                 <TypeAnimation
                     sequence={[
                         'Full Stack Web Developer', 
                         2000, 
+                        'Quality Assurance Engineer Intern',
+                        2000,
                         'Coder', 
                         2000, 
                         'Tech Enthusiast',
