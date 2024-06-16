@@ -2,7 +2,7 @@ import React from 'react'
 import ReactProjects from './ReactProjects';
 import capstone from '../assets/capstone.jpg';
 import mp2 from '../assets/mp2.jpg';
-import movie from '../assets/movie.jpg';
+import food from '../assets/food.png';
 import project2 from '../assets/project2.png';
 import BootstrapProjects from './BootstrapProjects';
 
@@ -19,7 +19,7 @@ const Projects = () => {
                 <ReactProjects img={capstone} title='MindfullTasks App' demoLink='https://mindfull-tasks-app.onrender.com/' codeLink='https://github.com/jantoy052003/Capstone-Frontend'/>
                 <ReactProjects img={project2} title='Streaming App' demoLink='https://mp2-8ww2.onrender.com/' codeLink='https://github.com/jantoy052003/MP2.git'/>
                 <BootstrapProjects img={mp2} title='Resort Website' demoLink='https://jantoy052003.github.io/KodeGoMP1/index.html' codeLink='https://github.com/jantoy052003/KodeGoMP1.git'/>
-                <ReactProjects img={movie} title='Trailers App' demoLink='https://mp2-testing-api.onrender.com/' codeLink='https://github.com/jantoy052003/MP2-testing-API.git'/>
+                <ReactProjects img={food} title='Trailers App' demoLink='https://cs301-project.onrender.com/' codeLink='https://github.com/jantoy052003/CS301-project'/>
             </div>
 
         </div>
